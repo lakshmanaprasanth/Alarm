@@ -24,22 +24,9 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
 
-        self.checkBox1 = QtWidgets.QCheckBox(self.centralwidget)
-        self.checkBox1.setGeometry(QtCore.QRect(20, 30, 31, 21))
-        self.checkBox1.setText("")
-        self.checkBox1.setObjectName("checkBox1")
-
         self.textEdit1 = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit1.setGeometry(QtCore.QRect(60, 20, 501, 31))
         self.textEdit1.setObjectName("textEdit1")
-
-        self.hour1 = QtWidgets.QSpinBox(self.centralwidget)
-        self.hour1.setGeometry(QtCore.QRect(630, 20, 42, 31))
-        self.hour1.setObjectName("hour1")
-
-        self.minute1 = QtWidgets.QSpinBox(self.centralwidget)
-        self.minute1.setGeometry(QtCore.QRect(680, 20, 42, 31))
-        self.minute1.setObjectName("minute1")
 
         MainWindow.setCentralWidget(self.centralwidget)
 
